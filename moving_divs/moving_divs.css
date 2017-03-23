@@ -1,0 +1,37 @@
+
+ div.object{
+	
+	background-color: Red;
+	height:150px;
+	width:150px;
+	border:2px solid black;
+	
+	padding:30px;
+	text-align: center;
+	
+}
+div#circle {
+	border-radius: 150px;
+	background-color: yellow;
+	position:absolute;
+	
+	right:0px;
+	margin:0;
+	//*left:auto;*//
+
+	
+}
+
+div#square{
+	border-radius: 10px;
+	background-color: green;
+	top:0;
+	right:0px;
+}
+div#rectangle{
+	border-radius: 10px;
+	background-color: purple;
+	width:300px;
+	height:80px;
+}
+
