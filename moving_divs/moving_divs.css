@@ -1,3 +1,7 @@
+body {
+	margin:0px;
+}
+ 
 
  div.object{
 	
@@ -14,10 +18,7 @@ div#circle {
 	border-radius: 150px;
 	background-color: yellow;
 	position:absolute;
-	
-	right:0px;
-	margin:0;
-	//*left:auto;*//
+	margin:auto;
 
 	
 }
@@ -25,13 +26,21 @@ div#circle {
 div#square{
 	border-radius: 10px;
 	background-color: green;
-	top:0;
-	right:0px;
+	margin:auto;
+	position: relative;
+
+	height:8000px;
+
+
 }
 div#rectangle{
 	border-radius: 10px;
 	background-color: purple;
 	width:300px;
 	height:80px;
+	position: fixed;
+	top:-10px;
+
 }
 
+	
