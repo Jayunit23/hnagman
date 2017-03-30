@@ -1,0 +1,17 @@
+#static_box{
+	border: 2px dashed pink;
+	height:400px;
+	width:400px;
+	
+	position:relative;
+	margin
+	
+}
+#dad{
+	border:2px dashed lime;
+	position:fixed;
+	background-color:lime;
+	left:0px;
+	right:0px;
+
+}
