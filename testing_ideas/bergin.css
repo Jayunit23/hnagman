@@ -1,0 +1,39 @@
+body, html{
+	margin:0px;
+	padding:0px;
+}
+#wrapper{
+	margin:0px;
+	top: 0px;
+	position: relative;
+	background-color: green;
+	height:100%;
+}
+
+#header{
+	text-align: center;
+	background-color: #f1c40f;
+ 	height:100px;
+	margin:0px;
+	position: absolute;
+	top: 0px;
+	width:100%;
+x
+	
+}
+#header h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 70px;
+	color:#2980b9;
+		padding:0px;
+margin:0px;
+
+
+}
+#main{
+	position: absolute;
+}
+p {
+
+font-family: 'Courgette', cursive;
+}

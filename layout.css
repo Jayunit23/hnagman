@@ -1,0 +1,42 @@
+body{
+
+	margin: 0px;
+/*	overflow: hidden;*/
+}
+#wrapper{
+	height:100%;
+	width:100vw;
+	max-width: 100%;
+	border:1px solid red;
+	position:absolute;
+	margin:0px;
+}
+
+#header{
+	height:15%;
+	border: 1px solid green;
+	width:100%;
+	background-color: #dedee0;
+	border-bottom: 2px solid #adadce;
+
+}
+
+#main{
+	height:75%;
+	border: 1px solid blue;
+	background-color: #bcffcc;
+	line-height: 75%
+
+}
+
+#footer{
+	border: 1px solid green;
+	background-color: #dedee0;
+	border-top: 2px solid #adadce;
+	height:10%;
+	width:100%;
+}
+#main h1{
+	text-align: center
+	
+}
