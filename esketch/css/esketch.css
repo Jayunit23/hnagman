@@ -1,0 +1,110 @@
+{
+	border: 1px dashed red;
+};
+body html{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url(https://www.colourbox.com/preview/17451523-retro-80s-disco-party-seamless-pattern.jpg);
+}
+#container {
+	border:32px solid #ff3e28;
+	border-radius: 25px;
+	height:800px;
+	width:800px;
+	margin:auto;
+	font-size: 0;
+	display: inline-block;
+	margin: 0px auto;
+
+}
+#container > div {
+	height:50px;
+	width:50px;
+/*	border:1px dashed red; */
+	display: inline-block;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	background-color: #f0f0f0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+#sidebar{
+	height:400px;
+
+	width:auto;
+	border:5px solid black;
+	border-radius: 8px;
+	position: relative;
+	padding:5px;
+	margin:100px auto;
+	display: inline-block;
+
+}
+.colors{
+	
+	border-radius: 100px;
+	height:45px;
+	width: 45px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#yellow{
+	background-color: #ddff00;
+}
+#blue{
+	background-color:#0050ff;
+}
+#pink{
+	background-color:#ff0090;
+}
+
+#container > div.lightsonBlue{
+	background-color: #0050ff;
+
+}
+
+#container > div.lightsonYellow{
+	background-color: #ddff00;
+}
+#container > div.lightsonPink{
+	background-color: #ff0090;
+
+}
+
+.notActive {
+	border: 2px solid black;
+}
+.active{
+	border:4px solid #2ecc71;
+}
+h1{
+	font-family: 'Black Ops One', cursive;
+	text-align: center;
+	font-size: 60px;
+	margin:0px;
+	display: block
+	text-shadow: 2px 2px #FF0000;
+}
+h2{
+	font-family: 'Black Ops One', cursive;
+	text-align: center;
+	margin:0px;
+	display: block
+
+}
+a{text-decoration: none;
+	font-family: 'Black Ops One', cursive;
+	text-align: center;
+	display: block;
+
+
+
+}

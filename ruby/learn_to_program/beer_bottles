@@ -1,0 +1,3 @@
+beer_bottles = 99
+put " #{bottles of beer on the wall, 99 bottles of beer"
+put "take one around pass it around 99 bottles of beer"
